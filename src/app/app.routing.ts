@@ -1,7 +1,8 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MainPageComponent } from './main-page/main-page.component';
-import { SalesComponent } from './sales/sales.component';
+import { CategoryDetailComponent } from './category-detail/category-detail.component';
+import { ItemDetailComponent } from './item-detail/item-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -10,8 +11,12 @@ const appRoutes: Routes = [
   },
   {
     path: 'categories/:id',
-    component: SalesComponent
+    component: CategoryDetailComponent
   },
+  {
+    path: 'items/:id',
+    component: ItemDetailComponent
+  }
 
 ];
 

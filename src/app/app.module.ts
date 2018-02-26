@@ -5,14 +5,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { routing } from './app.routing';
-import { SalesComponent } from './sales/sales.component';
+import { CategoryDetailComponent } from './category-detail/category-detail.component';
+import { ItemDetailComponent } from './item-detail/item-detail.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
-    SalesComponent
+    CategoryDetailComponent,
+    ItemDetailComponent
   ],
   imports: [
     BrowserModule,
