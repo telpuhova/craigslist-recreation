@@ -1,0 +1,13 @@
+<p>Add new item</p>
+<div class="newItemForm">
+  <label>id</label>
+  <input #id>
+  <label>name</label>
+  <input #name>
+  <label>description</label>
+  <input #description>
+  <label>price</label>
+  <input #price>
+
+  <button (click)="submitForm(id.value, name.value, description.value, price.value)">submit</button>
+</div>

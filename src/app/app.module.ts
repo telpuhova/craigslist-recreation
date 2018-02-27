@@ -7,6 +7,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { routing } from './app.routing';
 import { CategoryDetailComponent } from './category-detail/category-detail.component';
 import { ItemDetailComponent } from './item-detail/item-detail.component';
+import { NewItemComponent } from './new-item/new-item.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { ItemDetailComponent } from './item-detail/item-detail.component';
     AppComponent,
     MainPageComponent,
     CategoryDetailComponent,
-    ItemDetailComponent
+    ItemDetailComponent,
+    NewItemComponent
   ],
   imports: [
     BrowserModule,
