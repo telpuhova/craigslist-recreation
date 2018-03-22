@@ -1,27 +1,37 @@
-# CraigslistRecreation
+# craigslist-recreation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Development server
+Craigslist app, written using Angular 2, 2/26/2018
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**By Natalia Telpukhova**
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+An application, that copies the behavior of a craigslist site.
 
-## Build
+## Status
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+still in progress
 
-## Running unit tests
+## Setup
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* clone repository
+```
+$ git clone https://github.com/telpuhova/craigslist-recreation.git
+```
+* go into the cloned repo and run the following commands from your terminal:
+```
+$ npm install
+$ bower install
+$ gulp build --production
+$ gulp serve
+```
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+TypeScript, Angular 2, HTML, CSS, JavaScript, Node, npm, Gulp, Bootstrap, jQuery
 
-## Further help
+### License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2018 Natalia Telpukhova
